@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'dart:async';
 import './splash_screen.dart';
+import './home_screen.dart';
 
 
 void main() => runApp(MyApp());
@@ -11,8 +12,12 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
       title: "MecBooksWatch",
       debugShowCheckedModeBanner: false,
-      theme: ThemeData(backgroundColor: Colors.black, accentColor: Colors.yellow),
-      home: SplashScreen(),
+      theme: ThemeData(
+        backgroundColor: Colors.black,
+        primarySwatch: Colors.blue,
+        accentColor: Colors.white,
+      ),
+      home: HomeScreen(),
     );
   }
 }
