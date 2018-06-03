@@ -1,5 +1,7 @@
 import 'package:flutter/foundation.dart';
 import 'package:flutter/material.dart';
+import './sell_screen.dart';
+import './account_screen.dart';
 
 
 class HomeScreen extends StatefulWidget {
@@ -31,12 +33,27 @@ class _HomeScreenState extends State<HomeScreen> {
             ListTile(
               title: Text("My Account"),
               trailing: Icon(Icons.account_circle),
+              onTap: ()=> {
+                Navigator.of(context).pop():
+                Navigator.of(context).push(MaterialPageRoute(
+                  builder: (BuildContext context)=>
+                  AccountScreen()
+                )),
+              }
             ),
             ListTile(
               title: Text("Buy Books"),
+              onTap: ()=> Navigator.of(context).pop(),
             ),
             ListTile(
               title: Text("Sell Books"),
+              onTap: ()=> {
+                Navigator.of(context).pop():
+                Navigator.of(context).push(MaterialPageRoute(
+                  builder: (BuildContext context) =>
+                  SellScreen("Sell Page")
+                ))
+              }
             ),
             ListTile(
               title: Text("Logout"),
