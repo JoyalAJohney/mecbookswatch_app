@@ -1,7 +1,7 @@
+import './account_screen.dart';
 import 'package:flutter/foundation.dart';
 import 'package:flutter/material.dart';
 import './sell_screen.dart';
-import './account_screen.dart';
 
 
 class HomeScreen extends StatefulWidget {

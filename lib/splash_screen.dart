@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'dart:async';
+import './home_screen.dart';
 
 
 class SplashScreen extends StatefulWidget {
@@ -13,7 +14,7 @@ class _SplashScreenState extends State<SplashScreen> {
     void initState() {
       // TODO: implement initState
       super.initState();
-      Timer(Duration(seconds: 3),()=> print("Splash Done"));
+      Timer(Duration(seconds: 3),()=> Navigator.of(context).pushReplacementNamed('/HomeScreen'));
     }
 
   @override
@@ -37,7 +38,7 @@ class _SplashScreenState extends State<SplashScreen> {
                       CircleAvatar(
                         backgroundColor: Colors.yellow,
                         radius: 45.0,
-                        child: Icon(Icons.shopping_cart,size: 50.0),
+                        child: Icon(Icons.shopping_cart,size: 50.0,color: Colors.blueAccent,),
                       ),
                       Padding(padding: EdgeInsets.only(top: 10.0)),
                       Text(
@@ -57,7 +58,7 @@ class _SplashScreenState extends State<SplashScreen> {
                 child: Column(
                   mainAxisAlignment: MainAxisAlignment.center,
                   children: <Widget>[
-                    CircularProgressIndicator(backgroundColor: Colors.green),
+                    CircularProgressIndicator(valueColor: AlwaysStoppedAnimation<Color>(Colors.yellowAccent)),
                     Padding(padding: EdgeInsets.only(top: 14.0)),
                     Text(
                       "KTU Textbooks for MECians!",
