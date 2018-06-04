@@ -13,7 +13,8 @@ class MyApp extends StatelessWidget {
       title: "MecBooksWatch",
       debugShowCheckedModeBanner: false,
       theme: ThemeData(
-        backgroundColor: Colors.black,
+        brightness: Brightness.light,
+        backgroundColor: Colors.white,
         primarySwatch: Colors.teal,
         accentColor: Colors.white,
       ),
