@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 import 'dart:async';
 import './splash_screen.dart';
 import './home_screen.dart';
+import './searchResult_screen.dart';
 
 
 void main() => runApp(MyApp());
@@ -18,7 +19,7 @@ class MyApp extends StatelessWidget {
         primarySwatch: Colors.teal,
         accentColor: Colors.teal,
       ),
-      home: HomeScreen(),
+      home: SearchResult(),
     );
   }
 }

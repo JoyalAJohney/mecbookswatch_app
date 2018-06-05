@@ -1,0 +1,30 @@
+[
+    {
+        "name": "Joyal A Johney",
+        "age" : "20",
+        "height": "165",
+        "gender": "Male",
+        "hair_color": "Black"
+    },
+    {
+        "name": "Elon Musk",
+        "age" : "40",
+        "height": "180",
+        "gender": "Male",
+        "hair_color": "Black"
+    },
+    {
+        "name": "Tony Stark",
+        "age" : "50",
+        "height": "172",
+        "gender": "Male",
+        "hair_color": "Black"
+    },
+    {
+        "name": "Steve Rogers",
+        "age" : "30",
+        "height": "180",
+        "gender": "Male",
+        "hair_color": "Black"
+    }
+]
