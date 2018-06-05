@@ -19,7 +19,7 @@ class MyApp extends StatelessWidget {
         primarySwatch: Colors.teal,
         accentColor: Colors.teal,
       ),
-      home: SearchResult(),
+      home: HomeScreen(),
     );
   }
 }

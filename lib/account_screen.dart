@@ -32,9 +32,11 @@ with SingleTickerProviderStateMixin{
           tabs: <Widget>[
             Tab(
               icon: Icon(Icons.file_upload),
+              text: "Uploads",
             ),
             Tab(
               icon: Icon(Icons.favorite),
+              text: "Wishlist",
             ),
           ],
         ),
