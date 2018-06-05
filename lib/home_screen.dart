@@ -15,7 +15,7 @@ class _HomeScreenState extends State<HomeScreen> {
     return Scaffold(
       appBar: AppBar(
         title: Text(
-          "MecBooksWatch"
+          "MecBooksWatch",
         ),
         elevation: defaultTargetPlatform == TargetPlatform.android?5.0:0.0,
       ),
