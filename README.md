@@ -1,8 +1,4 @@
-# mecbookswatch_app
+# BooksWatch
 
-A new Flutter project.
-
-## Getting Started
-
-For help getting started with Flutter, view our online
-[documentation](https://flutter.io/).
+The mobile app for BooksWatch - the study material exchange site for students.
+[BooksWatch Main](https://github.com/agzuniverse/MecBooksWatch)
